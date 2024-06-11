@@ -37,13 +37,10 @@ main{
 
 //etiquetas para footer
 footer{
-    .contenedor-banner{
-        box-shadow: 20px 20px black;
-    }
     @include flex;
     img{
-        width: 80%;
-        height: 80%;
+        width: 25%;
+        height: 25%;       
     }
     nav ul{
         list-style: none;

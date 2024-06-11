@@ -213,25 +213,24 @@ main .contenedor-p4 {
   }
 }
 body {
-  background-color: #251612;
+  background-color: #1d0200;
 }
 
 header .minavbar-bg {
   margin: 10px 10px;
-  background-color: #BF701D;
-  color: #F1EEE4;
+  background-color: #BC742C;
 }
 header .a-hover:hover {
   background-color: goldenrod;
 }
 
 main {
-  color: #D7CCA4;
+  color: #f8ca6a;
+  display: grid;
   text-align: center;
   justify-content: center;
   font-size: smaller;
   letter-spacing: 2px;
-  display: grid;
   margin: 20px 20px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -243,13 +242,13 @@ main img {
 }
 main h1 {
   text-align: center;
-  color: #D7CCA4;
+  color: #f8ca6a;
 }
 
 footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #BF701D;
+  background-color: #BC742C;
   color: black;
   margin: 10px 10px;
   padding: 5px 5px;
@@ -258,13 +257,14 @@ footer {
   text-align: center;
 }
 footer img {
-  width: 80%;
-  height: 80%;
+  width: 25%;
+  height: 25%;
 }
 footer nav ul {
   list-style: none;
 }
 footer p {
+  color: black;
   margin-left: 70px;
 }
 
