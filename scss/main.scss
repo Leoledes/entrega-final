@@ -17,7 +17,7 @@ header{
     background-color: $color-menus;
     }
     .a-hover:hover{
-        background-color: goldenrod;
+        background-color: $color-secondary;
     }
 }
 
@@ -35,20 +35,28 @@ main{
     }
 }
 
-//etiquetas para footer
-footer{
+//etiquetas para seccion inferior
+section{
     @include flex;
-    img{
-        width: 25%;
-        height: 25%;       
+    .img1-foot{
+        display: flex;
+        margin-left: 40px;
+        width: 10%;
+        height: 10%;       
     }
     nav ul{
+        display: flex;
+        gap: 10px;
         list-style: none;
+        margin-right: 70px;
     }
-    p{
-        color: black;
-        margin-left: 70px;
-    }
+}
+
+//etiquetas para footer
+footer p{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 

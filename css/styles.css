@@ -245,27 +245,30 @@ main h1 {
   color: #f8ca6a;
 }
 
-footer {
+section {
   display: flex;
-  flex-wrap: wrap;
   background-color: #BC742C;
-  color: black;
   margin: 10px 10px;
-  padding: 5px 5px;
-  align-items: center;
   justify-content: space-between;
-  text-align: center;
+  align-items: center;
 }
-footer img {
-  width: 25%;
-  height: 25%;
+section .img1-foot {
+  display: flex;
+  margin-left: 40px;
+  width: 10%;
+  height: 10%;
 }
-footer nav ul {
+section nav ul {
+  display: flex;
+  gap: 10px;
   list-style: none;
+  margin-right: 70px;
 }
+
 footer p {
-  color: black;
-  margin-left: 70px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
