@@ -11,11 +11,16 @@ body{
 
 // etiquetas para header
 header{
+    img{
+        height: 8%;
+        width: 8%;
+    }
     .minavbar-bg{
         margin: $margin-primary;
         background-color: $color-menus;
         color: $color-primary;
     }
+    
     .letracolor{
         color:$color-letramenus;
     }
@@ -48,10 +53,10 @@ main{
 //etiquetas para seccion inferior
 section{
     @include flex;
-    .img1-foot{
-        margin-left: 40px;
-        width: 10%;
-        height: 10%;       
+    img{
+        margin-left: 10px;
+        width: 20%;
+        height: 20%;       
     }
     nav ul li{
         gap: 10px;

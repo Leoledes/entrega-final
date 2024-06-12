@@ -21,6 +21,10 @@ main .contenedor-p4 {
 }
 
 @media screen and (min-width: 390px) {
+  header .img1-header {
+    width: 20%;
+    height: 20%;
+  }
   main .contenedor-pp {
     height: 100vh;
     margin: 10px 10px;
@@ -29,12 +33,49 @@ main .contenedor-p4 {
     flex-direction: column;
     gap: 10px;
   }
-  footer .img1-foot {
-    width: 40%;
-    height: 40%;
+  main .contenedor-p1 {
+    height: 190vh;
+    margin: 50px 20px;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .contenedor-p2 {
+    height: 100vh;
+    margin: 10px 10px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .contenedor-p3 {
+    height: 100vh;
+    margin: 10px 10px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .contenedor-p4 {
+    height: 80vh;
+    margin: 10px 10px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  section .img1-foot {
+    margin-left: 20px;
+    width: 20%;
+    height: 20%;
   }
 }
 @media screen and (min-width: 768px) {
+  header .img1-header {
+    width: 20%;
+    height: 20%;
+  }
   main .contenedor-pp {
     height: 60vh;
     margin: 50px 50px;
@@ -43,14 +84,44 @@ main .contenedor-p4 {
     grid-template-rows: repeat(1, 87%);
     font-size: large;
   }
-  footer .img1-foot {
+  main .contenedor-p1 {
+    height: 100vh;
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-size: large;
+  }
+  main .contenedor-p2 {
+    height: 130vh;
+    margin: 30px 30px;
+    display: flex;
+    font-size: large;
+  }
+  main .contenedor-p3 {
+    height: 100vh;
+    margin: 30px 30px;
+    display: flex;
+    font-size: large;
+  }
+  main .contenedor-p4 {
+    height: 60vh;
+    margin: 30px 30px;
+    display: flex;
+    font-size: large;
+  }
+  section .img1-foot {
     width: 20%;
     height: 20%;
   }
 }
 @media screen and (min-width: 1280px) {
+  header .img1-header {
+    width: 8%;
+    height: 8%;
+  }
   main .contenedor-pp {
-    height: 70vh;
+    height: 50vh;
     margin: 50px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -60,45 +131,6 @@ main .contenedor-p4 {
   main .texto-pp {
     margin: 30px 20px;
   }
-  footer .contenedor-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  footer .img1-foot {
-    height: 20%;
-    width: 20%;
-  }
-}
-@media screen and (min-width: 390px) {
-  main .contenedor-p1 {
-    height: 190vh;
-    margin: 50px 20px;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  footer .img1-foot {
-    width: 40%;
-    height: 40%;
-  }
-}
-@media screen and (min-width: 768px) {
-  main .contenedor-p1 {
-    height: 100vh;
-    margin: 50px 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    font-size: large;
-  }
-  footer .img1-foot {
-    width: 18%;
-    height: 18%;
-  }
-}
-@media screen and (min-width: 1280px) {
   main .contenedor-p1 {
     height: 280vh;
     margin: 40px 50px;
@@ -109,113 +141,38 @@ main .contenedor-p4 {
     font-size: large;
     row-gap: 10px;
   }
-}
-@media screen and (min-width: 390px) {
-  main .contenedor-p2 {
-    height: 100vh;
-    margin: 10px 10px;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  footer .img1-foot {
-    width: 40%;
-    height: 40%;
-  }
-}
-@media screen and (min-width: 768px) {
-  main .contenedor-p2 {
-    height: 130vh;
-    margin: 30px 30px;
-    display: flex;
-    font-size: large;
-  }
-  footer .img1-foot {
-    width: 18%;
-    height: 18%;
-  }
-}
-@media screen and (min-width: 1280px) {
   main .contenedor-p2 {
     height: 280vh;
     margin: 40px 50px;
     display: flex;
     font-size: large;
   }
-}
-@media screen and (min-width: 390px) {
-  main .contenedor-p3 {
-    height: 100vh;
-    margin: 10px 10px;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  footer .img1-foot {
-    width: 40%;
-    height: 40%;
-  }
-}
-@media screen and (min-width: 768px) {
-  main .contenedor-p3 {
-    height: 100vh;
-    margin: 30px 30px;
-    display: flex;
-    font-size: large;
-  }
-  footer .img1-foot {
-    width: 18%;
-    height: 18%;
-  }
-}
-@media screen and (min-width: 1280px) {
   main .contenedor-p3 {
     height: 200vh;
     margin: 40px 50px;
     display: flex;
     font-size: large;
   }
-}
-@media screen and (min-width: 390px) {
-  main .contenedor-p4 {
-    height: 80vh;
-    margin: 10px 10px;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  footer .img1-foot {
-    width: 40%;
-    height: 40%;
-  }
-}
-@media screen and (min-width: 768px) {
-  main .contenedor-p4 {
-    height: 60vh;
-    margin: 30px 30px;
-    display: flex;
-    font-size: large;
-  }
-  footer .img1-foot {
-    width: 18%;
-    height: 18%;
-  }
-}
-@media screen and (min-width: 1280px) {
   main .contenedor-p4 {
     height: 60vh;
     margin: 40px 50px;
     display: flex;
     font-size: large;
   }
+  section .img1-foot {
+    margin-left: 20px;
+    width: 8%;
+    height: 8%;
+  }
 }
 body {
   background-color: #1d0200;
 }
 
+header img {
+  height: 8%;
+  width: 8%;
+}
 header .minavbar-bg {
   margin: 10px 10px;
   background-color: #BC742C;
@@ -263,10 +220,10 @@ section {
   justify-items: center;
   align-items: center;
 }
-section .img1-foot {
-  margin-left: 40px;
-  width: 10%;
-  height: 10%;
+section img {
+  margin-left: 10px;
+  width: 20%;
+  height: 20%;
 }
 section nav ul li {
   gap: 10px;
