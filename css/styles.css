@@ -219,6 +219,13 @@ body {
 header .minavbar-bg {
   margin: 10px 10px;
   background-color: #BC742C;
+  color: #f8ca6a;
+}
+header .letracolor {
+  color: #f3ebe9;
+}
+header .a-hover {
+  color: #f3ebe9;
 }
 header .a-hover:hover {
   background-color: goldenrod;
@@ -242,7 +249,6 @@ main img {
 }
 main h1 {
   text-align: center;
-  color: #f8ca6a;
 }
 main p {
   justify-content: center;
@@ -258,16 +264,18 @@ section {
   align-items: center;
 }
 section .img1-foot {
-  display: flex;
   margin-left: 40px;
   width: 10%;
   height: 10%;
 }
-section nav ul {
-  display: flex;
+section nav ul li {
   gap: 10px;
   list-style: none;
   margin-right: 70px;
+}
+section a {
+  color: #f3ebe9;
+  text-decoration: none;
 }
 
 footer p {

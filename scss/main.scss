@@ -10,11 +10,18 @@ body{
 }
 
 // etiquetas para header
-// etiquetas para navbar
 header{
     .minavbar-bg{
-    margin: $margin-primary;
-    background-color: $color-menus;
+        margin: $margin-primary;
+        background-color: $color-menus;
+        color: $color-primary;
+    }
+    .letracolor{
+        color:$color-letramenus;
+    }
+
+    .a-hover{
+        color:$color-letramenus;
     }
     .a-hover:hover{
         background-color: $color-secondary;
@@ -31,7 +38,6 @@ main{
     }
     h1{
         text-align: center;
-        color: $color-primary;
     }
     p{
         justify-content: center;
@@ -43,17 +49,19 @@ main{
 section{
     @include flex;
     .img1-foot{
-        display: flex;
         margin-left: 40px;
         width: 10%;
         height: 10%;       
     }
-    nav ul{
-        display: flex;
+    nav ul li{
         gap: 10px;
         list-style: none;
-        margin-right: 70px;
+        margin-right: 70px;        
     }
+        a{
+            color:$color-letramenus;
+            text-decoration: none;
+        }
 }
 
 //etiquetas para footer
