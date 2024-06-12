@@ -26,12 +26,16 @@ main{
     color: $color-primary;
     @include grid;
     img{
-        height: 100%;
-        width: 100%;
+        height: 80%;
+        width: 80%;
     }
     h1{
         text-align: center;
         color: $color-primary;
+    }
+    p{
+        justify-content: center;
+        align-content: center;
     }
 }
 
