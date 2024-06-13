@@ -13,7 +13,7 @@ header{
     .minavbar-bg{
         margin: $margin-primary;
         background-color: $color-menus;
-        color: $color-primary;
+        color: $color-tertiary;
     }
     
     .letracolor{
@@ -31,6 +31,9 @@ header{
 //etiquetas para main
 main{
     @include grid;
+    h1{
+        color:$color-primary;
+    }
     img{
         height: 90%;
         width: 90%;
@@ -63,7 +66,8 @@ section{
     nav ul li{
         gap: 10px;
         list-style: none;
-        margin-right: 70px;        
+        margin-right: 70px;
+        padding-top: 10px;     
     }
         a{
             color:$color-letramenus;
