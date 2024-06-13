@@ -1,6 +1,5 @@
 //import
 @import "html/reset";
-@import "html/contenedores";
 @import "html/mediaqueries";
 @import "utilidades/variables";
 @import "utilidades/mixin";
@@ -11,6 +10,7 @@ body{
 
 // etiquetas para header
 header{
+    @include flex;
     img{
         height: 8%;
         width: 8%;
@@ -35,20 +35,27 @@ header{
 
 //etiquetas para main
 main{
-    color: $color-primary;
     @include grid;
     img{
-        height: 80%;
-        width: 80%;
+        height: 90%;
+        width: 90%;
     }
-    h1{
-        text-align: center;
-    }
-    p{
+    .texto-pp{
         justify-content: center;
         align-content: center;
     }
+    .boton{
+        background-color: $color-menus;
+        text-decoration: none;
+        color:$color-letramenus;
+        padding: 20px 20px;
+        display: inline-block;
+        font-size: larger;
+        font-weight: bold;
+    }
 }
+
+    
 
 //etiquetas para seccion inferior
 section{

@@ -4,12 +4,15 @@
     display: grid;
     text-align: center;
     justify-content: center;
+    align-content: center;
     font-size: smaller;
     letter-spacing: 2px;    
     margin: $margin-secondary;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 5px;
+    color: $color-primary;
+    font-family: $fuente-primary;
 }
 
 @mixin flex{
@@ -19,4 +22,7 @@
     justify-content: space-between;
     justify-items: center;
     align-items: center;
+    color: $color-primary;
+    font-family: $fuente-primary;
+    font-weight: bold;
 }

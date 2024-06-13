@@ -4,29 +4,13 @@
   box-sizing: border-box;
 }
 
-main .contenedor-pp {
-  height: 95vh;
-}
-main .contenedor-p1 {
-  height: 160vh;
-}
-main .contenedor-p2 {
-  height: 80vh;
-}
-main .contenedor-p3 {
-  height: 90vh;
-}
-main .contenedor-p4 {
-  height: 30vh;
-}
-
 @media screen and (min-width: 390px) {
   header .img1-header {
     width: 20%;
     height: 20%;
   }
   main .contenedor-pp {
-    height: 100vh;
+    height: 150vh;
     margin: 10px 10px;
     font-size: small;
     display: flex;
@@ -34,7 +18,7 @@ main .contenedor-p4 {
     gap: 10px;
   }
   main .contenedor-p1 {
-    height: 190vh;
+    height: 300vh;
     margin: 50px 20px;
     font-size: medium;
     display: flex;
@@ -42,7 +26,7 @@ main .contenedor-p4 {
     gap: 10px;
   }
   main .contenedor-p2 {
-    height: 100vh;
+    height: 200vh;
     margin: 10px 10px;
     font-size: small;
     display: flex;
@@ -50,7 +34,7 @@ main .contenedor-p4 {
     gap: 10px;
   }
   main .contenedor-p3 {
-    height: 100vh;
+    height: 150vh;
     margin: 10px 10px;
     font-size: small;
     display: flex;
@@ -77,7 +61,7 @@ main .contenedor-p4 {
     height: 20%;
   }
   main .contenedor-pp {
-    height: 60vh;
+    height: 100vh;
     margin: 50px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -121,15 +105,12 @@ main .contenedor-p4 {
     height: 8%;
   }
   main .contenedor-pp {
-    height: 50vh;
+    height: 100vh;
     margin: 50px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 87%);
     font-size: large;
-  }
-  main .texto-pp {
-    margin: 30px 20px;
   }
   main .contenedor-p1 {
     height: 280vh;
@@ -169,6 +150,17 @@ body {
   background-color: #1d0200;
 }
 
+header {
+  display: flex;
+  background-color: #BC742C;
+  margin: 10px 10px;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  color: #f8ca6a;
+  font-family: Rockwell;
+  font-weight: bold;
+}
 header img {
   height: 8%;
   width: 8%;
@@ -189,27 +181,35 @@ header .a-hover:hover {
 }
 
 main {
-  color: #f8ca6a;
   display: grid;
   text-align: center;
   justify-content: center;
+  align-content: center;
   font-size: smaller;
   letter-spacing: 2px;
   margin: 20px 20px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 5px;
+  color: #f8ca6a;
+  font-family: Rockwell;
 }
 main img {
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
 }
-main h1 {
-  text-align: center;
-}
-main p {
+main .texto-pp {
   justify-content: center;
   align-content: center;
+}
+main .boton {
+  background-color: #BC742C;
+  text-decoration: none;
+  color: #f3ebe9;
+  padding: 20px 20px;
+  display: inline-block;
+  font-size: larger;
+  font-weight: bold;
 }
 
 section {
@@ -219,6 +219,9 @@ section {
   justify-content: space-between;
   justify-items: center;
   align-items: center;
+  color: #f8ca6a;
+  font-family: Rockwell;
+  font-weight: bold;
 }
 section img {
   margin-left: 10px;
