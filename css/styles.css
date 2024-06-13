@@ -16,7 +16,7 @@ header {
   justify-items: center;
   align-items: center;
   color: #f8ca6a;
-  font-family: Rockwell;
+  font-family: Trebuchet MS;
   font-weight: bold;
 }
 header img {
@@ -50,7 +50,7 @@ main {
   grid-template-rows: repeat(1, 1fr);
   gap: 5px;
   color: #c2c5cc;
-  font-family: Rockwell;
+  font-family: Trebuchet MS;
 }
 main h1 {
   color: #f8ca6a;
@@ -81,7 +81,7 @@ section {
   justify-items: center;
   align-items: center;
   color: #f8ca6a;
-  font-family: Rockwell;
+  font-family: Trebuchet MS;
   font-weight: bold;
 }
 section img {
