@@ -16,7 +16,7 @@ header {
   justify-items: center;
   align-items: center;
   color: #f8ca6a;
-  font-family: Trebuchet MS;
+  font-family: Rockwell;
   font-weight: bold;
 }
 header img {
@@ -50,7 +50,7 @@ main {
   grid-template-rows: repeat(1, 1fr);
   gap: 5px;
   color: #c2c5cc;
-  font-family: Trebuchet MS;
+  font-family: Rockwell;
 }
 main h1 {
   color: #f8ca6a;
@@ -81,7 +81,7 @@ section {
   justify-items: center;
   align-items: center;
   color: #f8ca6a;
-  font-family: Trebuchet MS;
+  font-family: Rockwell;
   font-weight: bold;
 }
 section img {
@@ -120,7 +120,7 @@ footer p {
     gap: 10px;
   }
   main .contenedor-p1 {
-    height: 400vh;
+    height: 350vh;
     margin: 50px 20px;
     font-size: medium;
     display: flex;
