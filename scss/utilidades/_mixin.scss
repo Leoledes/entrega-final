@@ -1,5 +1,4 @@
 //propiedades mixin para grid
-
 @mixin grid{
     display: grid;
     text-align: center;
@@ -15,6 +14,7 @@
     font-family: $fuente-primary;
 }
 
+//propiedades mixin para flex
 @mixin flex{
     display: flex;
     background-color: $color-menus;

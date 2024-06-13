@@ -1,86 +1,11 @@
 //import
 @import "html/reset";
-@import "html/mediaqueries";
 @import "utilidades/variables";
 @import "utilidades/mixin";
+@import "html/estilos";
+@import "html/mediaqueries";
 
-body{
-    background-color: $color-fondo;
-}
 
-// etiquetas para header
-header{
-    @include flex;
-    img{
-        height: 8%;
-        width: 8%;
-    }
-    .minavbar-bg{
-        margin: $margin-primary;
-        background-color: $color-menus;
-        color: $color-primary;
-    }
-    
-    .letracolor{
-        color:$color-letramenus;
-    }
 
-    .a-hover{
-        color:$color-letramenus;
-    }
-    .a-hover:hover{
-        background-color: $color-secondary;
-    }
-}
-
-//etiquetas para main
-main{
-    @include grid;
-    img{
-        height: 90%;
-        width: 90%;
-    }
-    .texto-pp{
-        justify-content: center;
-        align-content: center;
-    }
-    .boton{
-        background-color: $color-menus;
-        text-decoration: none;
-        color:$color-letramenus;
-        padding: 20px 20px;
-        display: inline-block;
-        font-size: larger;
-        font-weight: bold;
-    }
-}
-
-    
-
-//etiquetas para seccion inferior
-section{
-    @include flex;
-    img{
-        margin-left: 10px;
-        width: 20%;
-        height: 20%;       
-    }
-    nav ul li{
-        gap: 10px;
-        list-style: none;
-        margin-right: 70px;        
-    }
-        a{
-            color:$color-letramenus;
-            text-decoration: none;
-        }
-}
-
-//etiquetas para footer
-footer p{
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-}
 
 
